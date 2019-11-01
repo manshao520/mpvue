@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/list/main",
+    
+    
+    "pages/Store/main",
+    "pages/gift/main",
+    
+    
+    
+    
+    "pages/home/main",
+    
+    
+    
+    "pages/questionnaire/main",
+    "pages/logs/main",
+    "pages/player/main",
+    "pages/instructions/main"
+      ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#8ede45",
+    "navigationBarTextStyle": "white"
+    
+  },
+  "tabBar": {
+    "color":"#a9b7b7",
+    "selectedColor": "#2FCBB2",
+    "borderStyle":"white",
+    "list": [{
+      "pagePath": "pages/index/main",
+      "iconPath":"static/assets/icons/hema.png",
+      "selectedIconPath":"static/assets/icons/hema-sel.png",
+      "text": "首页"
+    },{
+      "pagePath": "pages/list/main",
+      "iconPath":"static/assets/icons/shopping.png",
+      "selectedIconPath":"static/assets/icons/shopping-sel.png",
+      "text": "排行榜"
+    },{
+      "pagePath": "pages/instructions/main",
+      "iconPath":"static/assets/icons/mine.png",
+      "selectedIconPath":"static/assets/icons/mine-sel.png",
+      "text": "说明"
+    }]
+  }
+}
